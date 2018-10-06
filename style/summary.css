@@ -1,0 +1,40 @@
+#summary {
+    position: relative;
+    top: 66px;
+    padding-top: 66px;
+    background-image: url(../images/subtle-grunge-texture61.jpg);
+}
+
+#summary div {
+    border: solid 15px #d0b473;
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+#summary p {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#summary div:nth-child(1){
+    position: relative;
+    left: 5%;
+}
+
+#summary div:nth-child(2){
+    position: relative;
+    left: 15%;
+}
+
+#summary div:nth-child(3){
+    position: relative;
+    left: 25%;
+}
+
+#summary div:nth-child(4){
+    position: relative;
+    left: 35%;
+}
