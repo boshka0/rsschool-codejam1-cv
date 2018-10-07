@@ -10,6 +10,7 @@
     width: 600px;
     margin-bottom: 20px;
     padding: 20px 0;
+    background-color: rgba(215,132,124, 0.6);
 }
 
 #summary p, #code p {
