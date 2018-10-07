@@ -1,7 +1,27 @@
 #contacts {
     position: relative;
     width: 100%;
-    height: 100px;
     background-color: rgb(215,132,124);
     color: white;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#contacts p{
+    color: black;
+    font-weight: bold;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
