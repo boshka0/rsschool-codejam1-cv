@@ -1,0 +1,21 @@
+#code {
+    top: 46px;
+}
+
+#code div:nth-child(odd){
+    position: relative;
+    left: 32%;
+}
+
+#code div:nth-child(even){
+    position: relative;
+    left: 5%;
+}
+
+#contacts {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}

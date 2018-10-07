@@ -1,18 +1,18 @@
-#summary {
+#summary, #code {
     position: relative;
     top: 66px;
     padding: 66px 0;
     background-image: url(../images/subtle-grunge-texture61.jpg);
 }
 
-#summary div {
+#summary div, #code div {
     border: solid 15px #d0b473;
     width: 600px;
     margin-bottom: 20px;
     padding: 20px 0;
 }
 
-#summary p {
+#summary p, #code p {
     color: black;
     font-size: 22px;
     text-align: center;

@@ -5,13 +5,16 @@
 }
 
 body {
-    width: 1000px;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
-header {
+main {
     width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
     margin-bottom: 10px;
     background-color: rgba(215,132,124, 0.9);
     position: fixed;
