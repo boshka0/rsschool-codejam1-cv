@@ -2,7 +2,17 @@
     background-image: url(../images/subtle-grunge-texture6.jpg);
     position: relative;
     top: 46px;
-    padding: 66px 0;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    left: 43%;
+    display: inline-block;
+    width: 135px;
+    margin-bottom: 30px;
+    color: #d0b473;
 }
 
 .charts-wrapper, .description {
