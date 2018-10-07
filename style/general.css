@@ -13,7 +13,7 @@ body {
 header {
     width: 1000px;
     margin-bottom: 10px;
-    background-color: rgba(215,132,124, 0.8);
+    background-color: rgba(215,132,124, 0.9);
     position: fixed;
     z-index: 10;
 }
@@ -34,13 +34,15 @@ header {
     height: 50px;
     line-height: 50px;
     font-size: 18px;
-    border: solid white 3px;
+    border: 3px solid white;
     color: black;
     font-weight: bold;
+    transition: background-color 1s;
 }
 
 .header li:hover {
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #general {
@@ -70,10 +72,10 @@ header {
     border: 5px solid #d0b473;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #general p {
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     transform: rotate(45deg);
     transform-origin: 14% 90%;
